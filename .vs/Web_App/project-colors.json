@@ -1,0 +1,31 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "49a50091-0271-421f-a92b-84a3d40b7a9c": {
+      "ProjectGuid": "49a50091-0271-421f-a92b-84a3d40b7a9c",
+      "DisplayName": "Web_App.Api",
+      "ColorIndex": 0
+    },
+    "71c6509b-6af3-4c4e-9a52-980afa530381": {
+      "ProjectGuid": "71c6509b-6af3-4c4e-9a52-980afa530381",
+      "DisplayName": "RepositoryPatternWithUOW.Core",
+      "ColorIndex": 1
+    },
+    "84d855a0-e000-44b6-9a57-f5248a057703": {
+      "ProjectGuid": "84d855a0-e000-44b6-9a57-f5248a057703",
+      "DisplayName": "RepositoryPatternWithUOW.EF",
+      "ColorIndex": 2
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "6d3c3cea-ce91-4251-845f-6622cf723f56": {
+      "ProjectGuid": "6d3c3cea-ce91-4251-845f-6622cf723f56",
+      "DisplayName": "RepositoryPatternWithUOW.Business",
+      "ColorIndex": 3
+    }
+  },
+  "NextColorIndex": 4
+}

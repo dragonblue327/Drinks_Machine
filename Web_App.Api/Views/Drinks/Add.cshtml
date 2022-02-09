@@ -1,0 +1,42 @@
+﻿@using RepositoryPatternWithUOW.Core.Models
+@model Drink
+@{
+    ViewBag.Title = Model != null ? "Update" : "Add";
+}
+<h2>@ViewBag.Title Add/Edit Products</h2>
+<form asp-action=@ViewBag.Title enctype="multipart/form-data">
+
+    <div asp-validation-summary=All></div>
+
+    <div class="col-lg-2">
+    <label asp-for="Id" class="control-lable"></label>
+    <input asp-for="Id" class="form-control" readonly/>
+    </div>
+
+    <label asp-for="DrinkName" class="control-lable"></label>
+    <input asp-for="DrinkName" class="form-control" />
+
+    <label asp-for="Quantity" class="control-lable"></label>
+    <input asp-for="Quantity" class="form-control" />
+    
+
+    <label asp-for="Price" class="control-lable"></label>
+    <input asp-for="Price" class="form-control" />
+
+    <label asp-for="Description" class="control-lable"></label>
+    <input asp-for="Description" class="form-control" />
+
+    <label asp-for="ProduceDate" class="control-lable"></label>
+    <input asp-for="ProduceDate" class="form-control" />
+
+    <label asp-for="ExpirationDate" class="control-lable"></label>
+    <input asp-for="ExpirationDate" class="form-control" />
+    <label asp-for="ImageFile" class="control-lable"></label>
+    <input asp-for="ImageFile" accept="image/*" />
+    <span asp-validation-for="ImageFile" class="text-danger"></span>
+    <div>
+    
+    <input type="submit"  value="save" class="btn btn-primary" />
+    <a asp-action="Drinks" class="btn btn-secondary">Cancel</a>
+    </div>
+</form>

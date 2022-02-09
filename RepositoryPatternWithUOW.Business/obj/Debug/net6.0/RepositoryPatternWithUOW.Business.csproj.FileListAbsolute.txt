@@ -1,0 +1,15 @@
+C:\Users\Nouri\source\repos\Web_App\RepositoryPatternWithUOW.Business\bin\Debug\net6.0\RepositoryPatternWithUOW.Business.deps.json
+C:\Users\Nouri\source\repos\Web_App\RepositoryPatternWithUOW.Business\bin\Debug\net6.0\RepositoryPatternWithUOW.Business.dll
+C:\Users\Nouri\source\repos\Web_App\RepositoryPatternWithUOW.Business\bin\Debug\net6.0\ref\RepositoryPatternWithUOW.Business.dll
+C:\Users\Nouri\source\repos\Web_App\RepositoryPatternWithUOW.Business\bin\Debug\net6.0\RepositoryPatternWithUOW.Business.pdb
+C:\Users\Nouri\source\repos\Web_App\RepositoryPatternWithUOW.Business\bin\Debug\net6.0\RepositoryPatternWithUOW.Core.dll
+C:\Users\Nouri\source\repos\Web_App\RepositoryPatternWithUOW.Business\bin\Debug\net6.0\RepositoryPatternWithUOW.Core.pdb
+C:\Users\Nouri\source\repos\Web_App\RepositoryPatternWithUOW.Business\obj\Debug\net6.0\RepositoryPatternWithUOW.Business.csproj.AssemblyReference.cache
+C:\Users\Nouri\source\repos\Web_App\RepositoryPatternWithUOW.Business\obj\Debug\net6.0\RepositoryPatternWithUOW.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nouri\source\repos\Web_App\RepositoryPatternWithUOW.Business\obj\Debug\net6.0\RepositoryPatternWithUOW.Business.AssemblyInfoInputs.cache
+C:\Users\Nouri\source\repos\Web_App\RepositoryPatternWithUOW.Business\obj\Debug\net6.0\RepositoryPatternWithUOW.Business.AssemblyInfo.cs
+C:\Users\Nouri\source\repos\Web_App\RepositoryPatternWithUOW.Business\obj\Debug\net6.0\RepositoryPatternWithUOW.Business.csproj.CoreCompileInputs.cache
+C:\Users\Nouri\source\repos\Web_App\RepositoryPatternWithUOW.Business\obj\Debug\net6.0\RepositoryPatternWithUOW.Business.csproj.CopyComplete
+C:\Users\Nouri\source\repos\Web_App\RepositoryPatternWithUOW.Business\obj\Debug\net6.0\RepositoryPatternWithUOW.Business.dll
+C:\Users\Nouri\source\repos\Web_App\RepositoryPatternWithUOW.Business\obj\Debug\net6.0\ref\RepositoryPatternWithUOW.Business.dll
+C:\Users\Nouri\source\repos\Web_App\RepositoryPatternWithUOW.Business\obj\Debug\net6.0\RepositoryPatternWithUOW.Business.pdb

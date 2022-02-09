@@ -1,0 +1,61 @@
+﻿@using RepositoryPatternWithUOW.Core.Models
+@model IEnumerable<Coins>
+<h1>Cash Register </h1>
+ 
+<div style="padding-left">
+    <table class="table" style="width: 25%">
+        
+    <thead >
+        <tr>
+            <th>
+                @Html.DisplayName("Coins Type")
+            </th>
+            <th>
+                @Html.DisplayName("Count")
+            </th>
+            <th>
+                @Html.DisplayName("Is It Full")
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model != null)
+        {
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Coin)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Count)
+                    </td>
+                    <td>
+                    @if (item.IsFull != false)
+                      {
+                        <span style="color:red">Full</span>
+                      }
+                    else
+                     {
+                        <span style="color:green">Not full</span>
+                        }
+                    </td>
+                    <td>
+                        @Html.ActionLink("Withdraw or deposit", "Update" , new {Id = item.Id})
+                    </td>
+                    <td>
+                        @Html.ActionLink("Block/Unblock", "Block" , new {Id = item.Id },new{ onclick ="return confirm('Are you sure you want to Block this Coin?');"}  )
+                    </td>
+                    <td>
+                        @Html.ActionLink("Delete", "Delete" , new {Id = item.Id },new{ onclick ="return confirm('Are you sure you want to Delete this Coin?');"}  )
+                    </td>
+                </tr>
+            }
+        }
+    </tbody>
+    <a asp-action="Add" class="btn btn-secondary">Add new coin</a>
+    <a asp-action="Default" class="btn btn-secondary">return to default</a>
+    </table>
+        <h1>Total Money</h1>
+        <h2>@ViewBag.tootal</h2>
+    </div>

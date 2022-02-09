@@ -1,0 +1,26 @@
+﻿@using RepositoryPatternWithUOW.Core.Models
+@model Coins
+@{
+    ViewBag.Title = Model != null ? "Update" : "Add";
+}
+<form asp-action=@ViewBag.Title>
+    <div asp-validation-summary=All></div>
+    <div class="col-lg-2">
+    <label asp-for="Id" class="control-lable"></label>
+    <input asp-for="Id" class="form-control" readonly/>
+    
+    <label asp-for="IsFull" class="btn-check"></label>
+    <input asp-for="IsFull" class="form-control" readonly/>
+    </div>
+    <div class="col-lg-2">
+    <label asp-for="Coin" class="control-lable"></label>
+    <input asp-for="Coin" class="form-control" />
+     <label asp-for="Count" class="control-lable"></label>
+    <input asp-for="Count" class="form-control" />
+    </div>
+
+    <div>
+    <input type="submit"  value="save" class="btn btn-primary" />
+    <a asp-action="CashRegister" class="btn btn-secondary">Cancel</a>
+    </div>
+</form>
