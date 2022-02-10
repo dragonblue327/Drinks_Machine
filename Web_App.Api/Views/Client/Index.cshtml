@@ -1,31 +1,49 @@
 ﻿@using RepositoryPatternWithUOW.Core.Models
 @model IEnumerable<Drink>
 
+             @*here i cloud make the button to enter the money with foreach but i sould use one table for drink and coins 
+            and that i doun't think will be right or there is way to use two models togther that i don't know it 
+            i want to make point on not using js or .css i can use them but i am not professional writing it )) 
+            and that will take alot of time i know that i hadn't do the view great but its functionly workes 
+            i cannot use ajax and i can write some codes with js 
+        *@
+
+<script>
+    var amount =0;
+                    function sum(val){
+                         amount += parseInt(val);
+                         document.getElementById('txtResult').value = amount;
+                         
+                        }
+                         </script>
+                         <script>   
+                          function pay(n){
+                              var the_Id = parseInt(document.getElementById('the_Id').value);
+                              amount_ = parseInt(amount);
+                              window.location.href = "Client/Buy/"+the_Id+"?amount="+amount_;
+                          }
+                         </script>
 <h1>ALL Drinks </h1>
 <div>
-        <div style="padding-top:10px">
-            Result:
-            <input type="text" id="txtResult" />
-        </div>
     <div>
         <div>
+            <div style=" margin-left: 64rem;">
+                <h1>Your Amount</h1>
+                
+    <input href="#" type="text" id="txtResult" readonly "/>
+    </div>
             <div style="margin-left: 66rem;">
-                <script type="text/javascript">
-                    function sum(){
-                         var FirstNum = 10;
-                         var result = parseInt(FirstNum) ;
-                         document.getElementById('txtResult').value = result;
-                         }
-                         </script>
+                
              
-    <button class="btn btn-warning" value="10" id= "10" onkeyup="sum()" > 10 </button>>
-    <a href="@Url.Action("Index", "Client", new { amount = 5 })" class="btn btn-warning" role="button">5</a>
-    <a href="@Url.Action("Index", "Client", new { amount = 2 })" class="btn btn-warning" role="button">2</a>
-    <a href="@Url.Action("Index", "Client", new { amount = 1 })" class="btn btn-warning" role="button">1</a>
+    <button class="btn btn-warning" value="10" id= "10" 
+    onclick= "sum(this.value)" > 10 </button>
+       <button class="btn btn-warning" value="5" id= "5" onclick= "sum(this.value)" > 5 </button>
+       <button class="btn btn-warning" value="2" id= "2" onclick= "sum(this.value)" > 2 </button>
+       <button class="btn btn-warning" value="1" id= "1" onclick= "sum(this.value)" > 1 </button>
+    <button class="btn btn-warning" value="1" id= "puy" onclick= "pay(this.value)" > Pay </button>
 
-    <h1>Your Amount</h1>
-        <h2>@ViewBag.Amount</h2>
-        
+        <h2>@ViewBag.Rest</h2>
+      
         </div>
         @if (Model != null)
         {
@@ -42,18 +60,10 @@
                                     <div class="card shadow" >
                                         <div class="card-body text-center">
                                             <h3 class="text-warning">@Html.DisplayFor(modelItem => item.DrinkName)</h3>
-                                            @if (ViewBag.Amount >= item.Price)
-                                            {
-                                                <a href="@Url.Action("Buy", "Client", new { Id = item.Id })">
+                                             
+                                                <input type="text" href="#" id= "the_Id" value="@Html.DisplayFor(modelItem => item.Id)" hidden > </input>
+                                                <a  href="#">
                                                 <img class="card-img-top" src="@Url.Content("~/Images/"+ item.ImageName)" alt=""></a>
-                                            }
-                                            else
-                                            {
-                                                <a href="#">
-                                                <img class="card-img-top" src="@Url.Content("~/Images/"+ item.ImageName)" alt="">
-                                                <h8 style="color:red">Not enough amount</h8>
-                                                </a>
-                                            }
                                             <a class="text-reset" href="#"><h5 class="card-title display-4" style="font-size: larger;">@Html.DisplayFor(modelItem => item.Description)</h5></a>
                                             <h6>Price @Html.DisplayFor(modelItem => item.Price) </h6>
                                         </div>
@@ -68,18 +78,3 @@
         </div>
         </div>
         </div>
-
-
-
-
-
-
-
-
-
-
-         @*here i cloud make the button to enter the money with foreach but i sould use one table for drink and coins 
-            and that i doun't think will be right or there is way to use two models togther that i don't know it 
-            i want to make point on not using js or .css i can use them but i am not professional writing it )) 
-            and that will take alot of time 
-        *@

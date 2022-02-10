@@ -15,25 +15,27 @@ namespace Web_App.Api.Controllers
             _coinsService = coinsService;
         }
 
-        public IActionResult Index(int amount)
+        public IActionResult Index()
         {
             var drinks = _drinksService.GetAll();
-            if (amount != 0) 
-               _coinsService.amount(amount);
             return View(drinks);
         }
-        
-        public IActionResult Buy(int id)
+
+        public IActionResult Buy(int id, int amount)
         {
             var rest_ = " ";
             int price =  _drinksService.GetDrinkPrice(id);
 
+            if (amount != 0)
+                _coinsService.amount(amount);
+
             foreach (var d in _coinsService.Exchange(price).GroupBy(i => i))
             {
-                rest_ = ( d.Key +"   "+d.Count());
+                rest_ = ( d.Key +"   "+d.Count());//exchange the rest of money 
             }
+            
             _drinksService.DrinkSall(id);
-            return RedirectToAction("Index", rest_);
+            return RedirectToAction("Index");
         }
        
     }
