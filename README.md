@@ -1,2 +1,2 @@
 # Drinks_
-you need to enter the master to see full code :) 
+you need to enter the master branch to see full code :) 
