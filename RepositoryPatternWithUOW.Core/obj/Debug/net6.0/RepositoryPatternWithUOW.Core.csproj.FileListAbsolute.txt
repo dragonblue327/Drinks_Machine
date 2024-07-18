@@ -10,3 +10,15 @@ C:\Users\Nouri\source\repos\Web_App\RepositoryPatternWithUOW.Core\obj\Debug\net6
 C:\Users\Nouri\source\repos\Web_App\RepositoryPatternWithUOW.Core\obj\Debug\net6.0\RepositoryPatternWithUOW.Core.dll
 C:\Users\Nouri\source\repos\Web_App\RepositoryPatternWithUOW.Core\obj\Debug\net6.0\ref\RepositoryPatternWithUOW.Core.dll
 C:\Users\Nouri\source\repos\Web_App\RepositoryPatternWithUOW.Core\obj\Debug\net6.0\RepositoryPatternWithUOW.Core.pdb
+C:\Users\drago\Desktop\drinks\Drinks_Machine\RepositoryPatternWithUOW.Core\bin\Debug\net6.0\RepositoryPatternWithUOW.Core.deps.json
+C:\Users\drago\Desktop\drinks\Drinks_Machine\RepositoryPatternWithUOW.Core\bin\Debug\net6.0\RepositoryPatternWithUOW.Core.dll
+C:\Users\drago\Desktop\drinks\Drinks_Machine\RepositoryPatternWithUOW.Core\bin\Debug\net6.0\RepositoryPatternWithUOW.Core.pdb
+C:\Users\drago\Desktop\drinks\Drinks_Machine\RepositoryPatternWithUOW.Core\obj\Debug\net6.0\RepositoryPatternWithUOW.Core.csproj.AssemblyReference.cache
+C:\Users\drago\Desktop\drinks\Drinks_Machine\RepositoryPatternWithUOW.Core\obj\Debug\net6.0\RepositoryPatternWithUOW.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\drago\Desktop\drinks\Drinks_Machine\RepositoryPatternWithUOW.Core\obj\Debug\net6.0\RepositoryPatternWithUOW.Core.AssemblyInfoInputs.cache
+C:\Users\drago\Desktop\drinks\Drinks_Machine\RepositoryPatternWithUOW.Core\obj\Debug\net6.0\RepositoryPatternWithUOW.Core.AssemblyInfo.cs
+C:\Users\drago\Desktop\drinks\Drinks_Machine\RepositoryPatternWithUOW.Core\obj\Debug\net6.0\RepositoryPatternWithUOW.Core.csproj.CoreCompileInputs.cache
+C:\Users\drago\Desktop\drinks\Drinks_Machine\RepositoryPatternWithUOW.Core\obj\Debug\net6.0\RepositoryPatternWithUOW.Core.dll
+C:\Users\drago\Desktop\drinks\Drinks_Machine\RepositoryPatternWithUOW.Core\obj\Debug\net6.0\refint\RepositoryPatternWithUOW.Core.dll
+C:\Users\drago\Desktop\drinks\Drinks_Machine\RepositoryPatternWithUOW.Core\obj\Debug\net6.0\RepositoryPatternWithUOW.Core.pdb
+C:\Users\drago\Desktop\drinks\Drinks_Machine\RepositoryPatternWithUOW.Core\obj\Debug\net6.0\ref\RepositoryPatternWithUOW.Core.dll

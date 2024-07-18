@@ -1,7 +1,11 @@
-# This is an application to practice using injection in the database context on startup
+# Database Context Injection Practice Application
 
-## This project is incomplete
+This is a project aimed at practicing database context injection in an ASP.NET application on startup.
 
-## The idea of ​​the project is to create an asp application that can act as a service for beverage vending machines like the ones used in MC
+## Note: This project is incomplete
 
-## If you have time, you are welcome to make pull requests
+## Project Overview
+The main idea behind this project is to develop an ASP.NET application that can function as a service for beverage vending machines, similar to the ones used in MC.
+
+## Contributions
+If you have the time and expertise, feel free to contribute by making pull requests to enhance and complete this project. Thank you for your interest!

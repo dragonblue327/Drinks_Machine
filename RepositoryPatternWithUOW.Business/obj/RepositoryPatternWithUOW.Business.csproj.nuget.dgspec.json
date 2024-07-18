@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Nouri\\source\\repos\\Web_App\\RepositoryPatternWithUOW.Business\\RepositoryPatternWithUOW.Business.csproj": {}
+    "C:\\Users\\drago\\Desktop\\drinks\\Drinks_Machine\\RepositoryPatternWithUOW.Business\\RepositoryPatternWithUOW.Business.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Nouri\\source\\repos\\Web_App\\RepositoryPatternWithUOW.Business\\RepositoryPatternWithUOW.Business.csproj": {
+    "C:\\Users\\drago\\Desktop\\drinks\\Drinks_Machine\\RepositoryPatternWithUOW.Business\\RepositoryPatternWithUOW.Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Nouri\\source\\repos\\Web_App\\RepositoryPatternWithUOW.Business\\RepositoryPatternWithUOW.Business.csproj",
+        "projectUniqueName": "C:\\Users\\drago\\Desktop\\drinks\\Drinks_Machine\\RepositoryPatternWithUOW.Business\\RepositoryPatternWithUOW.Business.csproj",
         "projectName": "RepositoryPatternWithUOW.Business",
-        "projectPath": "C:\\Users\\Nouri\\source\\repos\\Web_App\\RepositoryPatternWithUOW.Business\\RepositoryPatternWithUOW.Business.csproj",
-        "packagesPath": "C:\\Users\\Nouri\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Nouri\\source\\repos\\Web_App\\RepositoryPatternWithUOW.Business\\obj\\",
+        "projectPath": "C:\\Users\\drago\\Desktop\\drinks\\Drinks_Machine\\RepositoryPatternWithUOW.Business\\RepositoryPatternWithUOW.Business.csproj",
+        "packagesPath": "C:\\Users\\drago\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\drago\\Desktop\\drinks\\Drinks_Machine\\RepositoryPatternWithUOW.Business\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Nouri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\drago\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,14 +26,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Nouri\\source\\repos\\Web_App\\RepositoryPatternWithUOW.Core\\RepositoryPatternWithUOW.Core.csproj": {
-                "projectPath": "C:\\Users\\Nouri\\source\\repos\\Web_App\\RepositoryPatternWithUOW.Core\\RepositoryPatternWithUOW.Core.csproj"
+              "C:\\Users\\drago\\Desktop\\drinks\\Drinks_Machine\\RepositoryPatternWithUOW.Core\\RepositoryPatternWithUOW.Core.csproj": {
+                "projectPath": "C:\\Users\\drago\\Desktop\\drinks\\Drinks_Machine\\RepositoryPatternWithUOW.Core\\RepositoryPatternWithUOW.Core.csproj"
               }
             }
           }
@@ -53,7 +54,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -62,24 +64,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Nouri\\source\\repos\\Web_App\\RepositoryPatternWithUOW.Core\\RepositoryPatternWithUOW.Core.csproj": {
+    "C:\\Users\\drago\\Desktop\\drinks\\Drinks_Machine\\RepositoryPatternWithUOW.Core\\RepositoryPatternWithUOW.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Nouri\\source\\repos\\Web_App\\RepositoryPatternWithUOW.Core\\RepositoryPatternWithUOW.Core.csproj",
+        "projectUniqueName": "C:\\Users\\drago\\Desktop\\drinks\\Drinks_Machine\\RepositoryPatternWithUOW.Core\\RepositoryPatternWithUOW.Core.csproj",
         "projectName": "RepositoryPatternWithUOW.Core",
-        "projectPath": "C:\\Users\\Nouri\\source\\repos\\Web_App\\RepositoryPatternWithUOW.Core\\RepositoryPatternWithUOW.Core.csproj",
-        "packagesPath": "C:\\Users\\Nouri\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Nouri\\source\\repos\\Web_App\\RepositoryPatternWithUOW.Core\\obj\\",
+        "projectPath": "C:\\Users\\drago\\Desktop\\drinks\\Drinks_Machine\\RepositoryPatternWithUOW.Core\\RepositoryPatternWithUOW.Core.csproj",
+        "packagesPath": "C:\\Users\\drago\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\drago\\Desktop\\drinks\\Drinks_Machine\\RepositoryPatternWithUOW.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Nouri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\drago\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -88,6 +90,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -117,7 +120,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -126,7 +130,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
